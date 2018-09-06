@@ -3,7 +3,7 @@ import "./App.css";
 import Contacts from "./components/contact/Contacts";
 import Header from "./components/layouts/Header";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import Provider from "./components/Context";
 import AddContact from "./components/contact/addcontact";
 import About from "./components/layouts/about";
